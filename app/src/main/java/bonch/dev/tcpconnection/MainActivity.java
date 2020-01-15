@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
     private byte[] dataArray;
     private byte[] recivedDataArray;
 
-    private final String IP = "192.168.0.102";
-    private final int PORT = 5000;
+    private static final String IP = "192.168.0.102";
+    private static final int PORT = 5000;
     private SecureRandom secureRandom = new SecureRandom();
 
 
